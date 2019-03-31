@@ -1,0 +1,120 @@
+
+	.black
+	{
+		background-color:black;
+		padding:20px;
+		color:white;
+		animation-name: example;
+		animation-duration: 4s;
+				
+	}
+	
+	.socialMedia
+	{
+	background-color:black;
+	color:white;
+	padding:07%;
+	}
+	
+
+
+/*Slider image */
+
+	* {box-sizing:border-box}
+body {font-family: ;}
+.mySlides {display:none}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  
+}
+
+/* Slider Image Ended */
+
+				
+		@keyframes example 
+		{
+				0%   {background-color: blue;}
+				25%  {background-color: yellow;}
+				50%  {background-color: black;}
+				100% {background-color: purple;}
+		}
+		a:visited 
+				{
+					color: white;
+
+				}		
+		
+		a:link 
+				{
+					
+					text-decoration: none;
+				}
+
+		a:hover 
+				{
+					color: gray;
+					background-color: transparent;
+					text-decoration: overline;
+				
+				}
+				
+/*	Login Background */				
+	.login
+		{
+			background-image : url("Background LOGIN.jpg");
+			padding:20.5%;
+		}
+/*	Packages Background */				
+	.packages
+		{
+			background-image : url("Background PACKAGES.jpg");
+			padding:20.5%;
+		}		
+		
+/* About Us Background */
+	.aboutUs
+		{   
+			background-image : url("Home Slide 3.jpg");
+			padding:20.5%;
+		}		
+/* Feedback Background */
+	.feedback
+		{   
+			background-image : url("Home Slide 3.jpg");
+			padding:20.5%;
+		}
+/* Contact Us Background */
+	.contactUs
+		{   
+			background-image : url("Home Slide 3.jpg");
+			padding:20.5%;
+		}		
+/* Logout Background */
+	.logOut
+		{   
+			background-image : url("a2015-background-mainstage-gray.jpg");
+			padding:20.5%;
+		}	
+/* Packages2 Background */
+	.packages2
+		{   
+			background-image : url("Home Slide 3.jpg");
+			padding:20.5%;
+
+		}				
